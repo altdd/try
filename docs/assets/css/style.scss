@@ -42,14 +42,10 @@ footer {
 }
 
 #toc {
-  line-height: 1.8rem;
   p {
-    margin: 0;
+    margin-bottom: .7rem;
+    .indent1 {
+      margin-left: 2rem;
+    }
   }
 }
-
-//#gitter-badge {
-//  position: fixed;
-//  bottom: 20px;
-//  left: 30px;
-//}
