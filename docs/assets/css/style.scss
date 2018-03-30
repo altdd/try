@@ -41,18 +41,14 @@ footer {
   bottom: 0;
 }
 
-#toc {
-  position: fixed;
-  top: 170px;
-  ul {
-    list-style-type: square;
-    padding-left: 20px;
-    line-height: 1.8rem;
-  }
+header #toc ul {
+  list-style-type: square;
+  padding-left: 20px;
+  line-height: 1.8rem;
 }
 
-#gitter-badge {
-  position: fixed;
-  bottom: 20px;
-  left: 30px;
-}
+//#gitter-badge {
+//  position: fixed;
+//  bottom: 20px;
+//  left: 30px;
+//}
