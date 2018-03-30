@@ -39,7 +39,7 @@ pre {
 
 header {
   div#site-header {
-    border-bottom: 1px solid #d5d5d5;
+    border-bottom: 1px solid #e5e5e5;
   }
   h1#site-title {
     margin-bottom: .5rem;
@@ -50,7 +50,7 @@ header {
 }
 
 #toc {
-  margin-top: 2em;
+  margin: 2em 0;
   p {
     margin-bottom: .7rem;
     &.indent1 {
