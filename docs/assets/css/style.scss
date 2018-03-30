@@ -51,11 +51,8 @@ header {
 
 #toc {
   margin: 2em 0;
-  p {
-    margin-bottom: .7rem;
-    &.indent1 {
-      margin-left: 2rem;
-    }
+  p.indent1 {
+    margin-left: 2rem;
   }
 }
 
