@@ -37,8 +37,14 @@ pre {
   background-color: #FFF;
 }
 
-footer {
-  bottom: 0;
+header {
+  div#site-header {
+    border-bottom: 1px solid grey;
+    margin-bottom: 1em;
+  }
+  h1#site-title {
+    margin-bottom: .5rem;
+  }
 }
 
 #toc {
@@ -49,3 +55,9 @@ footer {
     }
   }
 }
+
+footer {
+  bottom: 0;
+}
+
+
