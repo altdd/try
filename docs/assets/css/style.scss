@@ -44,7 +44,7 @@ footer {
 #toc {
   p {
     margin-bottom: .7rem;
-    .indent1 {
+    &.indent1 {
       margin-left: 2rem;
     }
   }
