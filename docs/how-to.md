@@ -1,4 +1,6 @@
-# How To
+# How To    
+
+[![Gem Version](https://badge.fury.io/rb/pagy.svg)](https://badge.fury.io/rb/pagy)
 
 This page contains the practical tips and examples to get the job done with pagy. If there is something missing, or some topic that you think should be added, fixed or explained better, please open an issue. 
 
@@ -288,6 +290,7 @@ You can do so by setting the `:item_path` variable to the path to lookup in the 
     # or single pagy instance
     @pagy, @record = pagy(my_scope, item_path: 'activerecord.models.product' )
     ```
+    
 __Notice__: The variables passed to a pagy object have the precedence over the variables returned by the `pagy_get_vars`. The fastest way is passing a literal string to the `pagy` method, the most convenient way is using `pagy_get_vars`.
 
 ### Handling Pagy::OutOfRangeError exception
