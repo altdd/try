@@ -38,8 +38,10 @@ This method takes the pagy object and returns the HTML string with the paginatio
 
 The `pagy/nav` templates produce the same output, and can be used as an easier (but slower) starting point to override it. 
 
-See also [Using templates](/pagy/how-to#using-templates).
-
+See also [Using templates](how-to#using-templates).
+[Using templates](../how-to#using-templates)
+[Using templates](../../how-to#using-templates)
+[Using templates](/try/how-to#using-templates)
 
 ### pagy_nav_bootstrap(pagy)
 
